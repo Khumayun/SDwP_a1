@@ -1,0 +1,2 @@
+Exception name: 	| division by zero
+Function name: test | 10.09.2021 10:15:09
