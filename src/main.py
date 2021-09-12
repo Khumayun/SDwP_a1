@@ -49,17 +49,17 @@ rank = []
 
 @decorator_3
 def fund(b):
-    print('b', b)
+    print('in a fund function', b)
 
 @decorator_3
 def funr(b):
-    print('b', b)
+    print('in a funr function', b)
     for i in range(1000):
         pass
 
 @decorator_3
 def funn(b):
-    print('b', b)
+    print('in a funn function', b)
     for i in range(100000):
         pass
 
