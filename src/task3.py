@@ -4,6 +4,11 @@ import time
 
 
 class decorator_3:
+	"""
+	Decorator class which calculates execution time of arbitrary number of functions and saves data to a global varaible "rank".
+	:param func: arbitrary number of functions
+	:return: None
+	"""
 
 	def __init__(self, f):
 		self.f = f

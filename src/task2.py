@@ -4,6 +4,11 @@ import io
 
 
 def decorator_2(f):
+	"""
+	Function decorator which prints function's name, type, signature, type of arguments, docstring, source code and output.
+	:param f: function
+	:return: modified function
+	"""
 	def wrapper(*args, **kwargs):
 		print('Name:\t', f.__name__)
 		print('Type:\t', type(f))

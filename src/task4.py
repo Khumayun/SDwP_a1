@@ -14,7 +14,10 @@ def decorator_4(f):
 
 
 class decorator_4_classed:
-
+	"""
+	Class decorator which outputs information and time if an error occurs while the decorated
+	function is running, the error message is written to the .txt file.
+	"""
 	def __init__(self, f):
 		self.f = f
 
